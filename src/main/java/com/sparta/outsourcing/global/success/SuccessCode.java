@@ -43,8 +43,8 @@ public enum SuccessCode {
   SUCCESS_DELETE_RESTAURANT("가게를 삭제하였습니다."),
 
 
-
-  ;
+  REVIEW_DELETED("리뷰가 삭제되었습니다."), REVIEW_UPDATED("리뷰가 수정되었습니다."), REVIEWS_FOUND_BY_USER("사용자의 리뷰를 찾았습니다."), REVIEW_FOUND(
+      "리뷰를 찾았습니다."), REVIEWS_FOUND("리뷰를 찾았습니다."), REVIEW_CREATED("리뷰를 생성했습니다.");
 
   private final String message;
 
